@@ -1,0 +1,52 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/posts/([1-9]*)"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "posts-GET-ONE-response-200.json",
+        "transformerParameters": {
+          "disableBodyFileTemplating": true
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathTemplate": "/posts"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "posts-GET-ALL-response-200.json",
+        "transformerParameters": {
+          "disableBodyFileTemplating": true
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/posts"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "posts-POST-response-200.json",
+        "transformerParameters": {
+          "disableBodyFileTemplating": true
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

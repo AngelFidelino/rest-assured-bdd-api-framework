@@ -1,0 +1,17 @@
+[
+  {
+    "postId": 1,
+    "author": "Angel",
+    "twitter_username": "@angel"
+  },
+  {
+    "postId": 2,
+    "author": "Oli",
+    "twitter_username": "@oli"
+  },
+  {
+    "postId": 3,
+    "author": "Lopez",
+    "twitter_username": "@lopez"
+  }
+]

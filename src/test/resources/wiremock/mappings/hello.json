@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/some/thing"
+  },
+
+  "response": {
+    "status": 200,
+    "jsonBody": { "status": "OK", "scope": "APP", "place_id": 1 },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
